@@ -1,7 +1,8 @@
 local/*
-elpacs/*
+elpaca/*
 etc/*
 var/*
 elpa/*
 auto-save-list/*
 eln-cache/*
+tree-sitter/*
