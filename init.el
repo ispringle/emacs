@@ -1,4 +1,5 @@
 (load (expand-file-name "elpaca.el" user-emacs-directory))
+;;(load (expand-file-name "which-key.el" user-emacs-directory))
 
 (message "Loading files.")
 

@@ -41,3 +41,6 @@
  version-control t                      ; Use numeric versions for backups
  window-combination-resize t            ; Resize windows proportionally
  x-stretch-cursor t)                    ; Stretch cursor to the glyph width
+
+;; M-l inserts λ
+(global-set-key (kbd "M-l") (lambda () (interactive) (insert (make-char 'greek-iso8859-7 107))))
