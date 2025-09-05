@@ -35,3 +35,9 @@
     (add-to-list 'major-mode-remap-alist mapping))
   :config
   (ip-setup-install-grammars))
+
+(use-package combobulate
+  :custom
+  (combobulate-key-prefix "C-c o")
+  :hook ((prog-mode . combobulate-mode))
+  :load-path ("~/git/hub/mickeynp/combobulate"))
