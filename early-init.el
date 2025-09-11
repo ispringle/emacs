@@ -1,3 +1,5 @@
+;;; early-init.el --- Early Init File -*- lexical-binding: t; no-byte-compile: t -*-
+
 ;; HACK: Work around for MacOS 
 (setenv "LIBRARY_PATH"
   	(string-join
@@ -30,6 +32,9 @@
 (tooltip-mode -1)
 (menu-bar-mode -1)
 (set-fringe-mode 10)
+
+;; https://emacs-lsp.github.io/lsp-mode/page/performance/#use-plists-for-deserialization
+(setenv "LSP_USE_PLISTS" "true")
 
 ;; Disable package.el, we're going to use Elpaca
 (setq package-enable-at-startup nil
