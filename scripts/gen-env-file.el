@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (defun gen-env-file (path)
   "Save envvars to a file at path"
   (let ((dirname (file-name-directory path)))
