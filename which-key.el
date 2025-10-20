@@ -7,3 +7,4 @@
   (which-key-sort-order 'which-key-key-order-alpha)
   ;;(which-key-idle-delay 0.1/)
   :diminish which-key-mode)
+(elpaca-wait)

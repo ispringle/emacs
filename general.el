@@ -3,3 +3,4 @@
   :config
   (general-override-mode)
   (general-auto-unbind-keys))
+(elpaca-wait)

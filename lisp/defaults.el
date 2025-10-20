@@ -42,5 +42,8 @@
  window-combination-resize t            ; Resize windows proportionally
  x-stretch-cursor t)                    ; Stretch cursor to the glyph width
 
+(recentf-mode 1)
+(run-at-time "5 min" 300 'recentf-save-list)
+
 ;; M-l inserts λ
 (global-set-key (kbd "M-l") (lambda () (interactive) (insert (make-char 'greek-iso8859-7 107))))

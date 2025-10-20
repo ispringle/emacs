@@ -6,5 +6,9 @@
   (lsp-eldoc-render-all t)
   :hook ((lsp-mode . lsp-enable-which-key-integration))
   :commands (lsp lsp-deferred))
+
 (use-package lsp-ui
   :commands lsp-ui-mode)
+
+;(use-package eldoc-box)
+
